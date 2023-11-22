@@ -1,0 +1,88 @@
+<html>
+  <head>
+  	<title>BIO DATA</title>
+  	<link rel="stylesheet" href="bio.css">
+    <script src="validate.js"></script> 
+  </head>
+<body>
+	<div class= "head">
+		<h2 align = "center"> STUDENT BIODATA FORM </h2>
+	</div> 
+<div class = "form">
+  <form align="center" onsubmit="return validateForm();">
+
+    <br>
+    <br>
+<div class = "name">
+   <label>NAME:</label> <br/>
+   <input type = "text" name="finame" id="fname" placeholder = "First Name">&nbsp&nbsp
+   <input type = "text" name="laname" id="lname"type="text"  placeholder = "LastName">
+   <br/><br/>	
+</div>
+
+<div class = "gender">
+    <label>GENDER:</label>
+   <input type="radio" name="gender">Male
+   <input type="radio" name="gender">Female
+   <input type="radio" name="gender">Other
+   <br/><br/>
+</div>
+
+<div class = "dob">
+   <label>DATE OF BIRTH:</label><br/>
+   <input type="date" placeholder="DD/MM/YYYY">
+   <br/><br/>
+</div>
+
+<div class = "add">
+   <label>ADDRESS</label> <br/>
+   <textarea rows="5"cols="75"></textarea>
+   <br><br>
+</div>
+
+<div class = "phone"> 
+   <label>PHONE NUMBER:</label><br/>
+   <input type="tel" name="phone" id="phone" pattern="[0-9]{10}"required>
+   <br><br>
+</div> 
+
+
+<div class="email">
+	<label>E-MAIL:</label><br>
+	<input type="E-mail"  name="email"  id="email" pattern = "/^[^\s@]+@[^\s@]+\.[^\s@]+$/" required>
+	<br><br> 
+</div>
+
+
+<div class="course">
+   <label>COURSE:</label>
+   <Select>
+	   <option>MCA</option>
+	   <option>MBA</option>   
+	   <option>B-TECH</option>
+	</Select>
+   <br/><br/>
+</div>
+
+<div class= "skills">	
+
+	<label>SKILLS</label>
+   	<input type="checkbox">C
+   	<input type="checkbox" checked>C++
+   	<input type="checkbox">JAVA
+	<br>
+	<br>
+</div>   
+	<br>
+	<br>
+
+<div class="submit">
+     <button type = "submit">Submit</button> 
+</div>
+
+
+	</form>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+.head{
+	background-color: lightblue;
+	padding:1%;
+
+}
+
+form{
+	background-color: lightblue;
+
+}
+ 
+label{
+	font-family: "Lucida Console",monospace;
+ }
+
+
+.name{
+	padding-left: 25%;	
+	
+}
+
+.dob{
+	padding-left: 25%;	
+
+}
+
+
+.add{
+	padding-left: 25%;
+}
+
+.phone{
+	padding-left: 25%;
+	
+}
+
+.gender{
+	padding-left: 25%;	
+}
+
+.course{
+	padding-left: 25%;	
+}
+
+.skills{
+	padding-left: 25%;	
+}
+
+
+.email{
+	padding-left: 25%;
+}
+
+
+.submit{
+	padding-left: 25%;
+}
+
+h2{
+	font-family: "Verdana",Sans-serif;
+	text-decoration: underline overline;
+
+}
+
+
